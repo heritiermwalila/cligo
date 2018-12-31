@@ -1,0 +1,101 @@
+.page-container{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+    box-sizing: border-box;
+    height: 600px;
+    align-content: center;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.left-content,
+.right-content{
+    align-self: center;
+}
+
+.left-content{
+    width: 60%;
+}
+
+.left-content h4{
+    font-size: 35px;
+}
+
+.store-icons{
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+    flex: 1;
+    height: 45px;
+}
+.store-icons .google,
+.store-icons .apple{
+    height: 88px;
+    margin-right: 10px;
+}
+.store-icons .google img,
+.store-icons .apple img{
+    height: 50%;
+}
+.right-content{
+    width: 40%;
+    text-align: center;
+}
+.right-content img{
+    width: 50%;
+}
+
+
+.search-form-container form input{
+    padding: 10px 5px;
+    display: inline-block;
+    width: 75%;
+    border: 0;
+    margin: 10px 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.search-form-container form button{
+    display: inline-block;
+    padding: 10px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 0 5px 5px 0;
+    background: #470835;
+    color: #fff;
+    cursor: pointer;
+}
+
+.home-see-more{
+    background: #ad90a6;
+    height: 54px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.see-more{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+    width: 1080px;
+    margin: auto;
+    justify-content: space-around;
+    height: 100%;
+}
+.see-more .btn{
+    background:radial-gradient( circle , #47083573 1%, #470835) ;
+    padding: 8px 30px;
+    text-decoration: none;
+    color: #fff;
+}
