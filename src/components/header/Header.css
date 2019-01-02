@@ -24,6 +24,7 @@
 }
 .logo{
     flex: 1;
+    max-width: 40%;
 }
 
 .logo a img{

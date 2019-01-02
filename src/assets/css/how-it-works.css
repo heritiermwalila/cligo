@@ -1,0 +1,19 @@
+.steps-container{
+    display:grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 10px
+}
+
+
+.steps{
+    margin: 5px 0;
+    background: rgba(255, 255, 255, 0.89);
+    color: #333;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+[class^="steps-"] img{
+    display: block;
+    width: 60px;
+}

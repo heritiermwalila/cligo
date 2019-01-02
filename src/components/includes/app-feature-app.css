@@ -1,0 +1,23 @@
+.features-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+}
+.app-f{
+    background: rgba(255, 255, 255, 0.849);
+    padding: 25px 5px;
+    color: #333;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.app-f img{
+    width: 60px;
+    display: block;
+    margin: auto;
+}
+
+.app-head{
+    font-size: 30px;
+    margin-bottom: 0;
+}

@@ -1,0 +1,21 @@
+.sign-up-form input{
+    display: inline-block;
+    margin-bottom: 5px;
+    width: 40%;
+    padding: 7px 10px;
+    border: 0;
+    border-radius: 2px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.sign-up-form button{
+    background: #470835;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 3px;
+    margin: 10px 0;
+    cursor: pointer;
+}

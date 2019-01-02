@@ -4,6 +4,10 @@ import Layout from './components/layouts/Layout';
 
 
 class App extends Component {
+
+  componentDidMount(){
+    document.title="Home | Cligo"
+  }
   render() {
     return (
       <BrowserRouter>

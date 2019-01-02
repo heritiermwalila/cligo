@@ -1,0 +1,17 @@
+.store-icons{
+    display: flex;
+    margin: 20px 0;
+    width: 100%;
+    flex: 1;
+    height: 45px;
+}
+.store-icons .google,
+.store-icons .apple{
+    height: 88px;
+    margin-right: 10px;
+}
+.store-icons .google img,
+.store-icons .apple img{
+    height: 50%;
+}
+

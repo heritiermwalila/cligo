@@ -1,11 +1,14 @@
 import React from 'react';
 import Aux from '../../hoc/Aux';
-const signup=(props)=>(
+import SignupForm from '../includes/forms/signup/signup';
+import Heading from '../includes/page-heading';
+const login=(props)=>(
     <Aux>
-        <div className="page-container">
-            <h1>signup page</h1>
-        </div>
+        <Heading pageHeading="Register Account ">
+            <p>Please fill up the form to register your account</p>
+        </Heading>
+        <SignupForm formAction="/signup" formMethod="POST"></SignupForm>
     </Aux>
 );
 
-export default signup
+export default login

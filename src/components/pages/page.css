@@ -26,32 +26,20 @@
 
 .left-content h4{
     font-size: 35px;
+    margin-bottom: 0;
 }
-
-.store-icons{
-    display: flex;
-    margin: 20px 0;
-    width: 100%;
-    flex: 1;
-    height: 45px;
-}
-.store-icons .google,
-.store-icons .apple{
-    height: 88px;
-    margin-right: 10px;
-}
-.store-icons .google img,
-.store-icons .apple img{
-    height: 50%;
+.left-content div p{
+    line-break: auto;
+    width: 80%;
 }
 .right-content{
     width: 40%;
     text-align: center;
 }
-.right-content img{
-    width: 50%;
-}
 
+.search-form-container{
+    margin-top:20px;
+}
 
 .search-form-container form input{
     padding: 10px 5px;
